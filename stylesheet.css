@@ -1,0 +1,467 @@
+body{
+  margin-left:10px;
+  margin-right:10px;
+}
+.btn.message {
+  background: #f9a825;
+  color: #fff !important;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 32px;
+  margin: 18px auto 0 auto;
+  display: block;
+  font-weight: 700;
+  font-size: 1.15em;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 8px rgba(249,168,37,0.10);
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  text-align: center;
+}
+.btn.message:hover {
+  background: #c17900;
+  box-shadow: 0 4px 16px rgba(249,168,37,0.18);
+}
+/* Tombol Wrapper: Rapi, sejajar, dan responsif */
+.btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 24px 0 0 0;
+}
+.btn-wrapper p {
+  margin: 0 8px;
+  font-weight: 500;
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+.btn.signup,
+.btn.facebook,
+.btn.twitter {
+  min-width: 180px;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .btn-wrapper {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .btn.signup,
+  .btn.facebook,
+  .btn.twitter {
+    min-width: 140px;
+  }
+}
+/* Deskripsi dan Fakta Nutrisi */
+.desc-nutrisi {
+  color: #fff;
+  font-size: 1.08em;
+  margin: 0.5em 0 1em 0;
+  text-align: center;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+.fakta-nutrisi {
+  margin: 0 auto 1.0em auto;
+  padding: 0 0 0 2em;
+  max-width: 600px;
+  color: #fff;
+  font-size: 1em;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  background: linear-gradient(rgb(8, 122, 208),rgb(65, 190, 212));
+  border-radius:10px;
+}
+.fakta-nutrisi li {
+  margin-bottom: 0.5em;
+  line-height: 1.5;
+}
+/* Judul dan Subjudul */
+.main-title {
+  font-size: 2.5em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 0.2em;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.25);
+}
+.subtitle {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #b2dfdb;
+  margin-bottom: 1.2em;
+  text-align: center;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+.desc {
+  font-size: 1.1em;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0.5em;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+.btn.signup {
+  background: #43a047;
+  color: #fff !important;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 22px;
+  margin: 6px 0 6px 0;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1em;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(67,160,71,0.08);
+  cursor: pointer;
+}
+.btn.signup:hover {
+  background: #2e7031;
+  box-shadow: 0 4px 16px rgba(67,160,71,0.18);
+}
+.btn.facebook {
+  background: #3b5998;
+  color: #fff !important;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 22px;
+  margin: 6px 0 6px 0;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1em;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(59,89,152,0.08);
+  cursor: pointer;
+  gap:1rem;
+}
+.btn.facebook:hover {
+  background: #2d4373;
+  box-shadow: 0 4px 16px rgba(59,89,152,0.18);
+}
+.btn.twitter {
+  background: #1da1f2;
+  color: #fff !important;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 22px;
+  margin: 6px 0 6px 8px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1em;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(29,161,242,0.08);
+  cursor: pointer;
+}
+.btn.twitter:hover {
+  background: #0d95e8;
+  box-shadow: 0 4px 16px rgba(29,161,242,0.18);
+}
+/* Header Styling */
+.header-bg {
+  background: rgba(44, 62, 80, 0.92);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 0;
+}
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.logo {
+  height: 48px;
+}
+.welcome-text {
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.header-right a{
+  color: #fff;
+  margin-left: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+  background: linear-gradient(rgb(8, 122, 208),rgb(65, 190, 212));
+  padding:7px;
+  border-radius:11px;
+  
+}
+.header-right a:hover{
+  color: #110f08;
+  transform:scale(1.14);
+}
+.menu-icon {
+  color: #fff;
+  font-size: 1.7em;
+  margin-left: 18px;
+  cursor:pointer;
+  display: none;
+}
+@media (max-width: 700px) {
+  .header-flex { flex-direction: column; align-items: flex-start; }
+  .header-right { margin-top: 10px; }
+  .menu-icon { display: inline-block; }
+}
+
+/* Footer Styling */
+.footer-bg {
+  background: rgba(44, 62, 80, 0.95);
+  padding: 24px 0 12px 0;
+  margin-top: 40px;
+}
+.footer-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.footer-logo {
+  height: 40px;
+}
+.footer-text {
+  color: #fff;
+  margin-left: 10px;
+}
+body {
+  background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1500&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  position: relative;
+}
+
+/* Overlay to darken background for better text contrast */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(34, 49, 63, 0.55);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Make sure main content is above overlay */
+body > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Improve text color for contrast */
+.top-wrapper h1,
+.top-wrapper p,
+.lesson-wrapper h2,
+.lesson-wrapper p,
+.message-wrapper h2,
+.message-wrapper h3,
+.btn-wrapper a,
+.btn-wrapper p {
+  color: #fff !important;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  
+}
+
+.tools-wrapper {
+  background: rgba(255,255,255,0.85);
+  padding: 40px 0;
+}
+.tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.tool-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 24px 32px;
+  width: 220px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+.tool-card:hover {
+  transform: translateY(-10px) scale(1.04);
+}
+.tool-card .fa {
+  font-size: 2.5em;
+  margin-bottom: 12px;
+  color: #3498db;
+}
+.tool-card h3 {
+  margin: 10px 0 8px 0;
+  font-size: 1.2em;
+}
+.tool-card p {
+  font-size: 0.98em;
+  color: #555;
+}
+.heading h2{
+  background-color: #3498db;
+  margin-right:5rem;
+  margin-left: 5rem;
+  text-align:center;
+  padding:6px;
+  border-radius: 10px;
+}
+.btn-wrapper a:hover{
+  text-decoration: none;
+  text-shadow:0px 3px 20px red;
+  
+}
+.btn-wrapper a{
+  text-decoration: none;
+}
+.btn.facebook .fa.fa-facebook{
+  gap:20px;
+}
+.main-title{
+  background-color: #1da1f2;
+  margin-left:5rem;
+  margin-right:5rem;
+  border-radius:15px;
+}
+@media (max-width: 600px),(max-width:500px) {
+  .main-title {
+    font-size: 1.4rem;
+    
+    
+  }
+}
+@media (max-width:600px){
+.heading h2{
+    font-size:1.4rem;
+    
+
+}
+
+
+}
+.heading span{
+  background-color: #f1c40f;
+  border-radius: 4px;
+  color:red;
+}
+.desc-nutrisi{
+  background-color: #1da1f2;
+  text-align: justify;
+  text-justify: inter-word;
+  border-radius: 1rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.lesson-icon p{
+  background-color: #1da1f2;
+  display: inline-block;
+  padding:4px;
+  border-radius: 4px;
+}
+.text-contents{
+  background: linear-gradient(rgb(8, 122, 208),rgb(65, 190, 212));
+  display:inline-block;
+  padding:6px;
+  border-radius:8px;
+}
+.lesson{
+  background:rgba(255,255,255,0.2);
+  margin-bottom: 10px;
+  padding:7px;
+  border-radius: 12px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  box-shadow: #0d95e8; 
+
+}
+.container.header-flex{
+  padding-left: 30px;
+  padding-right: 30px;
+  
+}
+.header-left{
+  background: linear-gradient(rgb(8, 122, 208),rgb(65, 190, 212));
+  padding-left:20px;
+  padding-right: 20px;
+  border-radius: 20px;
+}
+.header-bg{
+  border-radius:24px;
+}
+@media (max-width: 600px),(max-width:500px) {
+  .container.header-flex {
+    padding-left:30px;
+    padding-right:30px;
+  }
+  .header-right{
+    font-weight: 100;
+    font-size: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  .header-left{
+    justify-content:center;
+  }
+  }
+  .problem_3 {
+    display: flex;
+    gap:10px;
+    justify-content: center;
+  }
+  .problem_3 h1{
+    border-radius:10px;
+    background: linear-gradient(rgb(93, 82, 237),rgb(45, 6, 143));
+    text-align:center;
+    color:white;
+  }
+
+ .problem_3 img{
+   width:350px;
+   height:350px;
+   border-radius:10px;
+   justify-content: center;
+   
+ }
+ .problem1 ,.problem2 ,.problem3{
+  background: linear-gradient(rgb(8, 122, 208),rgb(65, 190, 212));
+  padding:10px;
+  border-radius:20px;
+  margin-left:20px;
+  margin-right:20px;
+ }
+ .problem_3 p{
+  text-align:justify;
+  margin:0;
+  padding:0;
+  margin-top:10px;
+  }
+  .fakta-nutrisi2{
+    text-align:justify;
+    background: linear-gradient(rgb(8, 122, 208),rgb(65, 190, 212));
+    border-radius:10px;
+  }
+  @media (max-width: 700px) {
+  .problem_3{ 
+    margin-left: 0;
+    margin-right: 0;
+    flex-direction: column; 
+    align-items: flex-start; 
+  
+  }
+  
+  
+}
+
+  
+
